@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1024,768" caption="0,0,0,40">
+    <Font name="微软雅黑" size="50" bold="false" italic="false" default="true" />
+    <Font name="微软雅黑" size="10" bold="false" italic="false" />
+    <Font name="微软雅黑" size="20" bold="true" italic="false" />
+    <VerticalLayout bordersize="1" bkimage="Lottery_back.jpg" bordercolor="#FFAAA6A7">
+        <HorizontalLayout width="1022" height="60" padding="1,0,1,0">
+            <HorizontalLayout width="60">
+				
+			</HorizontalLayout>
+            <HorizontalLayout height="60" />
+            <HorizontalLayout width="144" height="60">
+				<Button name="btnPlotMin" float="true" pos="32,11,0,0" width="88" height="49" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="left" text="最小化" normalimage="min.png" />
+                <!--<Button name="btnPlotClose" float="true" pos="32,11,0,0" width="88" height="49" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" normalimage="close.png" />-->
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="h1" width="1022" padding="1,0,1,0">
+            <HorizontalLayout />
+            <HorizontalLayout width="700">
+                <Text name="lblResult" float="true" pos="169,170,0,0" width="360" height="418" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="centerwrap" />
+                <Text name="lblText" float="true" pos="169,541,0,0" width="358" height="39" textpadding="2,0,2,0" textcolor="#00FF0000" disabledtextcolor="#FFA7A6AA" font="2" align="centerwrap" />
+            </HorizontalLayout>
+            <HorizontalLayout />
+        </HorizontalLayout>
+        <HorizontalLayout width="1022" height="116" padding="1,0,1,0">
+            <Button name="btnStart" float="true" pos="433,15,0,0" width="180" height="76" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="start.png" />
+            <Button name="btnStop" visible="false" float="true" pos="433,15,0,0" width="180" height="76" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="stop.png" />
+            <Button name="btnCalc" text="概率统计" float="true" pos="950,80,0,0" width="40" height="20" bordercolor="#00808080" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" visible="false"/>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
